@@ -1,0 +1,30 @@
+NAME
+    antman
+
+SYNOPSIS
+    Compression program
+
+DESCRIPTION
+    ./antman [option] path_to_file filetype
+    path_to_file : the path to the file to be compressed
+    filetype    : the filetype (see below)
+
+    OPTIONS :
+        -h
+            display the help
+
+    EXIT STATUS:
+        0   if OK,
+        84  if problems.
+
+FILETYPE
+    *.lyr, *.txt : 1
+    *.html       : 2
+    *.ppm        : 3
+
+EXAMPLES
+    ./antman -h
+    ./antman my_file.txt 1
+
+REPORTING BUG
+    Their is no bug
